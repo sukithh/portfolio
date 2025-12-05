@@ -14,47 +14,27 @@ const Certifications = () => {
   // Certifications data
   const certifications = [
     {
-      title: 'Meta Frontend Developer Professional Certificate',
-      issuer: 'Meta (Facebook)',
-      date: '2023',
-      image: 'https://via.placeholder.com/400x300/1e1e2e/0ea5e9?text=Meta+Certificate',
-      credentialUrl: '#'
+      title: 'Tata crucible campus quiz',
+      issuer: 'Internshala',
+      date: '12th Nov, 2025',
+      image: '/cert-1.jpg',
+      credentialUrl: '/cert-1.jpg'
     },
     {
-      title: 'React - The Complete Guide',
-      issuer: 'Udemy',
-      date: '2023',
-      image: 'https://via.placeholder.com/400x300/1e1e2e/8b5cf6?text=React+Course',
-      credentialUrl: '#'
+      title: 'Python programming with Linux',
+      issuer: 'Ethnotech Academic Solutions - EWIT',
+      date: '15th Feb, 2025',
+      image: '/cert-2.jpg',
+      credentialUrl: '/cert-2.jpg'
     },
     {
-      title: 'JavaScript Algorithms and Data Structures',
-      issuer: 'freeCodeCamp',
-      date: '2022',
-      image: 'https://via.placeholder.com/400x300/1e1e2e/06b6d4?text=JavaScript+Cert',
-      credentialUrl: '#'
+      title: 'Python programming with Linux (Part 2)',
+      issuer: 'Ethnotech Academic Solutions - EWIT',
+      date: '4th July, 2025',
+      image: '/cert-3.jpg',
+      credentialUrl: '/cert-3.jpg'
     },
-    {
-      title: 'Responsive Web Design',
-      issuer: 'freeCodeCamp',
-      date: '2022',
-      image: 'https://via.placeholder.com/400x300/1e1e2e/10b981?text=Web+Design',
-      credentialUrl: '#'
-    },
-    {
-      title: 'Node.js Backend Development',
-      issuer: 'Coursera',
-      date: '2023',
-      image: 'https://via.placeholder.com/400x300/1e1e2e/f59e0b?text=Node.js+Cert',
-      credentialUrl: '#'
-    },
-    {
-      title: 'Advanced CSS and Sass',
-      issuer: 'Udemy',
-      date: '2022',
-      image: 'https://via.placeholder.com/400x300/1e1e2e/ec4899?text=CSS+Course',
-      credentialUrl: '#'
-    },
+    
   ];
 
   // Scroll functions
@@ -174,21 +154,18 @@ const Certifications = () => {
           className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16"
         >
           <div className="glass-card p-6 text-center">
-            <div className="text-4xl font-bold gradient-text mb-2">6+</div>
+            <div className="text-4xl font-bold gradient-text mb-2">3</div>
             <div className="text-gray-400 text-sm">Certifications</div>
           </div>
           <div className="glass-card p-6 text-center">
-            <div className="text-4xl font-bold gradient-text mb-2">15+</div>
+            <div className="text-4xl font-bold gradient-text mb-2">1</div>
             <div className="text-gray-400 text-sm">Projects Completed</div>
           </div>
           <div className="glass-card p-6 text-center">
-            <div className="text-4xl font-bold gradient-text mb-2">2+</div>
-            <div className="text-gray-400 text-sm">Years Experience</div>
+            <div className="text-4xl font-bold gradient-text mb-2">0</div>
+            <div className="text-gray-400 text-sm">Experience</div>
           </div>
-          <div className="glass-card p-6 text-center">
-            <div className="text-4xl font-bold gradient-text mb-2">100%</div>
-            <div className="text-gray-400 text-sm">Client Satisfaction</div>
-          </div>
+         
         </motion.div>
       </div>
     </section>

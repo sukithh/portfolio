@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaHeart, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaHeart, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -14,9 +14,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: FaGithub, url: 'https://github.com/yourusername', label: 'GitHub' },
-    { icon: FaLinkedin, url: 'https://linkedin.com/in/yourusername', label: 'LinkedIn' },
-    { icon: FaTwitter, url: 'https://twitter.com/yourusername', label: 'Twitter' },
+    { icon: FaGithub, url: 'https://github.com/sukithh', label: 'GitHub' },
+    { icon: FaLinkedin, url: 'https://www.linkedin.com/in/sukith-m-jain-b79407384', label: 'LinkedIn' },
+    { icon: FaInstagram, url: 'https://www.instagram.com/sukithh/', label: 'Instagram' },
   ];
 
   return (
@@ -26,9 +26,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold gradient-text mb-4">Ravindra</h3>
+            <h3 className="text-2xl font-bold gradient-text mb-4">Sukith</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Frontend Developer passionate about creating beautiful and functional web experiences.
+             A Full-Stack Architect and Cloud Enthusiast, I specialize in building and deploying scalable, resilient, and high-performance end-to-end applications.  
             </p>
           </div>
 
@@ -76,11 +76,11 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 text-sm text-center md:text-left">
-            © {currentYear} Ravindra. All rights reserved.
+            © {currentYear} Sukith. All rights reserved.
           </p>
           
           <p className="text-gray-400 text-sm flex items-center gap-1">
-            Made with <FaHeart className="text-red-500 animate-pulse" /> using React & Tailwind
+            Precision and purpose <FaHeart className="text-red-500 animate-pulse" /> 
           </p>
         </div>
       </div>

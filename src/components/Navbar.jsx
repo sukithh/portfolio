@@ -67,7 +67,7 @@ const Navbar = () => {
           className="text-2xl font-bold gradient-text"
           whileHover={{ scale: 1.05 }}
         >
-          Ravindra
+          Sukith
         </motion.a>
 
         {/* Desktop Menu */}

@@ -11,60 +11,17 @@ const Projects = () => {
 
   // Projects data
   const projects = [
-    {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce application with cart functionality, payment integration, and admin dashboard.',
-      image: 'https://via.placeholder.com/600x400/1e1e2e/0ea5e9?text=E-Commerce+Platform',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      github: 'https://github.com/yourusername/ecommerce',
-      demo: 'https://demo-ecommerce.com',
-      color: 'from-blue-500 to-cyan-500'
-    },
-    {
-      title: 'Social Media Dashboard',
-      description: 'Analytics dashboard for social media metrics with real-time data visualization and insights.',
-      image: 'https://via.placeholder.com/600x400/1e1e2e/8b5cf6?text=Social+Dashboard',
-      tags: ['React', 'Chart.js', 'TailwindCSS', 'Firebase'],
-      github: 'https://github.com/yourusername/dashboard',
-      demo: 'https://demo-dashboard.com',
-      color: 'from-purple-500 to-pink-500'
-    },
-    {
-      title: 'Task Management App',
-      description: 'Collaborative task management tool with drag-and-drop, real-time updates, and team features.',
-      image: 'https://via.placeholder.com/600x400/1e1e2e/06b6d4?text=Task+Manager',
-      tags: ['React', 'TypeScript', 'Redux', 'Express'],
-      github: 'https://github.com/yourusername/taskmanager',
-      demo: 'https://demo-taskmanager.com',
-      color: 'from-cyan-500 to-teal-500'
-    },
-    {
-      title: 'Weather Forecast App',
-      description: 'Beautiful weather application with location-based forecasts, interactive maps, and detailed metrics.',
-      image: 'https://via.placeholder.com/600x400/1e1e2e/3b82f6?text=Weather+App',
-      tags: ['React', 'OpenWeather API', 'Leaflet', 'CSS3'],
-      github: 'https://github.com/yourusername/weather',
-      demo: 'https://demo-weather.com',
-      color: 'from-blue-400 to-indigo-500'
-    },
+   
     {
       title: 'Portfolio Template',
       description: 'Modern, responsive portfolio template with animations, dark mode, and customizable sections.',
-      image: 'https://via.placeholder.com/600x400/1e1e2e/a78bfa?text=Portfolio+Template',
+      image: '/project-screenshot.png',
       tags: ['React', 'Framer Motion', 'TailwindCSS', 'Vite'],
       github: 'https://github.com/yourusername/portfolio',
       demo: 'https://demo-portfolio.com',
       color: 'from-violet-500 to-purple-500'
     },
-    {
-      title: 'Blog Platform',
-      description: 'Full-featured blogging platform with markdown support, comments, and user authentication.',
-      image: 'https://via.placeholder.com/600x400/1e1e2e/10b981?text=Blog+Platform',
-      tags: ['Next.js', 'MongoDB', 'NextAuth', 'MDX'],
-      github: 'https://github.com/yourusername/blog',
-      demo: 'https://demo-blog.com',
-      color: 'from-emerald-500 to-green-500'
-    },
+    
   ];
 
   return (

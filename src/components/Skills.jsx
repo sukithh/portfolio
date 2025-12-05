@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FaReact, FaNode, FaPython, FaDatabase, FaHtml5, FaCss3Alt, FaGitAlt, FaFigma } from 'react-icons/fa';
-import { SiJavascript, SiTypescript, SiTailwindcss, SiMongodb, SiExpress, SiFirebase } from 'react-icons/si';
+import { FaReact, FaNode, FaPython, FaDatabase, FaHtml5, FaCss3Alt, FaGitAlt } from 'react-icons/fa';
+import { SiJavascript, SiTypescript, SiTailwindcss, SiMongodb, SiCplusplus, SiC } from 'react-icons/si';
 
 const Skills = () => {
   const [ref, inView] = useInView({
@@ -13,17 +13,17 @@ const Skills = () => {
   // Skills data with proficiency levels
   const skillsData = [
     { name: 'React', level: 90, icon: FaReact, color: '#61DAFB' },
-    { name: 'JavaScript', level: 88, icon: SiJavascript, color: '#F7DF1E' },
+    { name: 'JavaScript', level: 90, icon: SiJavascript, color: '#F7DF1E' },
     { name: 'TypeScript', level: 82, icon: SiTypescript, color: '#3178C6' },
     { name: 'Node.js', level: 80, icon: FaNode, color: '#339933' },
     { name: 'HTML5', level: 95, icon: FaHtml5, color: '#E34F26' },
-    { name: 'CSS3', level: 93, icon: FaCss3Alt, color: '#1572B6' },
-    { name: 'TailwindCSS', level: 90, icon: SiTailwindcss, color: '#06B6D4' },
+    { name: 'CSS3', level: 50, icon: FaCss3Alt, color: '#1572B6' },
+    { name: 'python', level: 90, icon: FaPython, color: '#06B6D4' },
     { name: 'MongoDB', level: 75, icon: SiMongodb, color: '#47A248' },
-    { name: 'Express', level: 78, icon: SiExpress, color: '#000000' },
+    { name: 'C', level: 78, icon: SiC, color: '#000000' },
     { name: 'Git', level: 85, icon: FaGitAlt, color: '#F05032' },
-    { name: 'Firebase', level: 72, icon: SiFirebase, color: '#FFCA28' },
-    { name: 'Figma', level: 70, icon: FaFigma, color: '#F24E1E' },
+    { name: 'C++', level: 72, icon: SiCplusplus, color: '#FFCA28' },
+    
   ];
 
   return (
