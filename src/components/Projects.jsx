@@ -17,7 +17,7 @@ const Projects = () => {
       description: 'Modern, responsive portfolio template with animations, dark mode, and customizable sections.',
       image: '/project-screenshot.png',
       tags: ['React', 'Framer Motion', 'TailwindCSS', 'Vite'],
-      github: 'https://github.com/yourusername/portfolio',
+      github: 'https://github.com/sukithh/portfolio.git',
       demo: 'https://sukith.vercel.app/',
       color: 'from-violet-500 to-purple-500'
     },
@@ -144,7 +144,7 @@ const Projects = () => {
           className="text-center mt-12"
         >
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/sukithh"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block neon-button"
